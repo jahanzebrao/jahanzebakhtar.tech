@@ -1,0 +1,9 @@
+# secrets never belong in this repo (the Netlify token lives in C:\Users\<you>\netlify-token.txt)
+*token*.txt
+.env
+.netlify/
+
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store

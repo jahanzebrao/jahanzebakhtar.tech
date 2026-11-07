@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OnePackERP Case Study: ERP for Packaging &amp; Corrugation | Jahanzeb Akhtar</title>
+<meta name="description" content="How Jahanzeb Akhtar built OnePackERP inside his own corrugated packaging factory in Karachi: box costing by ply, challans, invoices, FBR invoicing, reel stock and production in one ERP.">
+<meta name="author" content="Jahanzeb Akhtar">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://jahanzebakhtar.tech/onepackerp-case-study">
+<meta name="theme-color" content="#f4f5f7">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Jahanzeb Akhtar">
+<meta property="og:url" content="https://jahanzebakhtar.tech/onepackerp-case-study">
+<meta property="og:title" content="OnePackERP: an ERP built inside a packaging factory">
+<meta property="og:description" content="Box costing by ply, challans, invoices, FBR invoicing, reel stock and production in one system, built by a developer who runs the factory.">
+<meta property="og:image" content="https://jahanzebakhtar.tech/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jahanzebakhtar.tech/assets/img/og-image.jpg">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/geist-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/instrument-serif-italic-latin.woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://jahanzebakhtar.tech/onepackerp-case-study#article",
+      "headline": "OnePackERP: an ERP built inside a packaging factory",
+      "description": "How OnePackERP was built inside a corrugated packaging factory in Karachi and became a SaaS for packaging manufacturers.",
+      "image": "https://jahanzebakhtar.tech/assets/img/og-image.jpg",
+      "datePublished": "2026-11-07",
+      "dateModified": "2026-11-07",
+      "inLanguage": "en",
+      "author": {"@type": "Person", "@id": "https://jahanzebakhtar.tech/#person", "name": "Jahanzeb Akhtar", "url": "https://jahanzebakhtar.tech/"},
+      "publisher": {"@type": "Person", "@id": "https://jahanzebakhtar.tech/#person", "name": "Jahanzeb Akhtar"},
+      "mainEntityOfPage": "https://jahanzebakhtar.tech/onepackerp-case-study",
+      "about": {"@type": "SoftwareApplication", "name": "OnePackERP", "url": "https://onepackerp.com", "applicationCategory": "BusinessApplication", "operatingSystem": "Web"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jahanzebakhtar.tech/"},
+        {"@type": "ListItem", "position": 2, "name": "OnePackERP case study", "item": "https://jahanzebakhtar.tech/onepackerp-case-study"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header id="hd" class="scrolled">
+  <div class="wrap nav">
+    <a href="/" class="brand"><span class="mark">JA</span>Jahanzeb Akhtar</a>
+    <nav class="menu" aria-label="Main">
+      <a href="/#about">About</a><a href="/#work">Work</a><a href="/#services">Services</a><a href="/#zebcore">ZebCore</a><a href="/#process">Process</a>
+    </nav>
+    <a href="/#contact" class="btn dark">Let's talk</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / OnePackERP case study</nav>
+
+  <div class="phero">
+    <span class="label" style="color:var(--accent)">Case study · Live product</span>
+    <h1>OnePackERP: an ERP built inside a <em class="s">packaging factory.</em></h1>
+    <p class="sub">A complete ERP for packaging and corrugation manufacturers. I built it for the corrugated packaging factory I run in Karachi, and it is now offered as a subscription to other companies.</p>
+    <div class="ctas">
+      <a href="https://onepackerp.com" class="btn dark" target="_blank" rel="noopener">Visit onepackerp.com <span class="arr">↗</span></a>
+      <a href="/#contact" class="btn">Request a walkthrough <span class="arr">→</span></a>
+    </div>
+  </div>
+
+  <article class="prose">
+    <div class="facts">
+      <div><small>Industry</small><b>Packaging &amp; corrugation</b></div>
+      <div><small>Type</small><b>Multi-company SaaS</b></div>
+      <div><small>Built with</small><b>Laravel · React · MySQL</b></div>
+    </div>
+
+    <h2>The problem</h2>
+    <p>A corrugation and carton business deals with numbers that generic software doesn't understand: reel sizes and weights, paper GSM, 3, 5 and 7-ply boards, cutting sizes, sheets and rolls. In my factory these lived in Excel sheets, registers and phone calls.</p>
+    <p>Costing a carton meant manual calculation. Orders were copied into delivery challans, challans into invoices and invoices into ledgers by hand. Reel stock was a guess until someone walked into the store and counted.</p>
+
+    <h2>The approach</h2>
+    <p>Instead of bending a generic ERP to fit, I wrote the system around the factory's real documents and the way the team already worked. Every screen was used on the factory floor first, by the people who enter the data, and changed until it was faster than the old way.</p>
+
+    <h2>What OnePackERP does</h2>
+    <h3>Packaging (cartons and boxes)</h3>
+    <ul class="ticks">
+      <li>Box costing and roll calculation by size, ply and cutting</li>
+      <li>Sizes in inches, centimetres or millimetres</li>
+      <li>Boxes and sheets in the same order</li>
+      <li>Rate memory per customer, size and ply</li>
+      <li>Orders → delivery challans → invoices</li>
+      <li>FBR digital invoicing with QR</li>
+    </ul>
+    <h3>Corrugation (reels, rolls and sheets)</h3>
+    <ul class="ticks">
+      <li>Reel stock by size, paper and weight</li>
+      <li>Production that takes reels out of stock</li>
+      <li>Leftover reel weight goes back to stock</li>
+      <li>Roll and sheet production and stock</li>
+      <li>Purchase challans with per-reel rates</li>
+      <li>Supplier ledger matched to delivery challans</li>
+    </ul>
+    <h3>Across the business</h3>
+    <ul class="ticks">
+      <li>Customer ledgers updated by every invoice</li>
+      <li>Packaging and corrugation kept separate</li>
+      <li>Each company's data fully isolated</li>
+      <li>Keyboard-first entry for fast operators</li>
+      <li>Works on PCs and phones in the browser</li>
+      <li>Owner dashboard for the day's numbers</li>
+    </ul>
+
+    <h2>The result</h2>
+    <p>The factory now runs its orders, challans, invoices, ledgers, reel stock and production on OnePackERP every day. Because the system was shaped by daily use rather than a specification document, other packaging manufacturers recognised their own workflow in it, and it became a subscription product for them.</p>
+    <p>The same approach is what I bring to client projects: start from how the business actually runs, show a working demo early, and improve it with the people who use it. Read more about <a href="/custom-erp-software-pakistan">custom ERP software for businesses in Pakistan</a>.</p>
+
+    <div class="cta-band">
+      <h2>Run a packaging or <em class="s">corrugation unit?</em></h2>
+      <p>See OnePackERP with your own products and customers. Or tell me about the system your business needs.</p>
+      <div class="ctas">
+        <a href="/#contact" class="btn">Request a walkthrough <span class="arr">→</span></a>
+        <a href="https://wa.me/923158105115?text=Hi%20Jahanzeb%2C%20I%27d%20like%20a%20OnePackERP%20walkthrough." class="btn ghost" target="_blank" rel="noopener">WhatsApp me <span class="arr">↗</span></a>
+      </div>
+    </div>
+  </article>
+
+  <nav class="related" aria-label="More">
+    <a href="/custom-erp-software-pakistan"><small>Service</small>Custom ERP software in Pakistan →</a>
+    <a href="/software-developer-karachi"><small>Service</small>Software &amp; web developer in Karachi →</a>
+    <a href="/#work"><small>Portfolio</small>All projects and live demos →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap"><span>© 2026 Jahanzeb Akhtar · Founder, <a href="https://zebcoresystem.com" target="_blank" rel="noopener">ZebCore Systems</a> · Creator of <a href="https://onepackerp.com" target="_blank" rel="noopener">OnePackERP</a></span><span>Software &amp; web developer in Karachi, Pakistan · Working worldwide · <a href="https://www.linkedin.com/in/jahanzebakhtar-dev/" target="_blank" rel="me noopener">LinkedIn</a> · <a href="https://github.com/jahanzebrao" target="_blank" rel="me noopener">GitHub</a> · <a href="https://www.facebook.com/cadet.jahanzebrao" target="_blank" rel="me noopener">Facebook</a></span></div>
+</footer>
+</body>
+</html>
